@@ -1,0 +1,323 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/background.jpg);
+    background-size: 100% 690px;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+
+
+}
+/* HeaderSection Start here */
+#HeaderSection{
+    width: 100%;
+    display: inline;
+    color: white;
+    margin-top: 18px;
+
+}
+#LogoDiv{
+    width: 30%;
+    display: inline;
+}
+#LogoDiv h1{
+    display: inline;
+    font-size: 17px;
+    margin-left: 18px;
+}
+#LogoDiv h1 span{
+    font-weight: 100;
+}
+#OptionDiv{
+    width: 69%;
+    display: inline;
+}
+#OptionDiv ul{
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+#OptionDiv ul li{
+    display: inline;
+    margin-right: 47px;
+}
+#SignUp{
+    border: 3px solid white;
+    padding: 5px 18px;
+    border-radius: 6px;
+}
+
+/* HeaderSection End here */
+
+/* bodysection start here */
+#BodySection {
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+
+
+}
+#BodySection h1{
+    font-size: 50px;
+    font-weight: 100;
+
+}
+#BodySection p{
+    font-size: 21px;
+    display: inline;
+    margin-top: -30;
+}
+#BodySection ul{
+    margin-top: 55px;
+}
+#BodySection ul li{
+    display: inline;
+    font-size: 19px;
+    border: 2px solid white;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+#sign{
+    color: gray;
+    background-color: white;
+    margin-right: 20px;
+    font-weight: 900;
+}
+/* bodysection end here */
+/* DiscriptSsiction start here */
+#DiscriptSection{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 150px;
+     border-radius: 6px ;
+     text-align: center;
+     font-weight: 100px;
+     color: #747474;
+}
+#DiscriptSection img{
+    width: 100%;
+}
+#DiscriptSection h1{
+ font-size: 38px;
+ padding-top: 81px;
+ font-weight: 300;
+}
+#DiscriptSection p{
+font-size: 23px;
+padding-top: 47px;
+border-top: 1px solid #747474;
+display: inline-block;
+}
+#DiscriptSection img{
+    width: 100%;
+    margin-top: 60px;
+    border-radius: 6px;
+}
+/* DiscriptSsiction end here */
+/* iconsection start here */
+#IconSection{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #747474;
+    font: 100;
+    position: relative;
+    
+}
+#IconSection div{
+    width: 49.5%;
+    display: inline-block;
+    text-align: center;
+  padding: 70px 0px;
+    
+}
+#Iconsection div h1{
+    font-size: 30px;
+   
+}
+#IconSection div p{
+font-size: 19px;
+    font-weight: 300;
+    line-height: 33px;
+
+}
+#IconSection div i{
+    font-size: 60px;
+    border-radius: 100%;
+    color: white;
+}
+#IconSection div:nth-child(1){
+    border-right: 1px solid #dfd9d9;
+}
+#IconSection div:nth-child(2){
+    border-bottom: 1px solid #dfd9d9;
+}
+#IconSection div:nth-child(3){
+    border-top: 1px solid #dfd9d9;
+}
+#IconSection div:nth-child(4){
+    border-left: 1px solid #dfd9d9;
+}
+#IconDiv1 i{
+    background-color: #e89980;
+    padding: 14px 31px;
+}
+#IconDiv2 i{
+   
+    background-color: #7fcdb8;
+    padding: 15px 12px;
+  }
+
+#IconDiv3 i{
+    background-color: #90b0ba;
+    padding: 18px 17px;
+}
+#IconDiv4 i{
+    background-color: #e5cb95;
+    padding: 17px 28px;
+}
+/* iconsection end here */
+/* naturesection start here */
+#NatureSection{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 35px ;
+
+
+}
+
+#NatureSection Div{
+    /* width: 48% ; */
+    display: inline-block ;
+    background-color: white;
+    border-radius: 6px ;
+    text-align: center;
+    padding-bottom: 52px;
+ 
+
+}
+#NatureSection div:nth-child(1){
+    width: 47%;
+}
+#NatureSection div:nth-child(2){
+    width: 47%;
+}
+#NatureSection Div img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+    display: inline;
+}
+#NatureSection Div img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+    display:inline
+}
+#NatureDiv2{
+    margin-left: -7px;
+}
+#NatureDiv1{
+    margin-right: 45px;
+}
+
+#NatureSection Div h1{
+  color: #646464;
+}
+#NatureSection Div p{
+    color: #777777;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+#NatureSection Div a{
+
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #777777;
+  
+}
+/* #Footersection{
+    text-align: center;
+    width: 100%;
+    background-color: #e89980;
+    color: #f9e6df;
+    padding-bottom: 100px;
+}
+#Footersection h1{
+    font-size: 41px;
+    font-weight: 100;
+    margin: 0px 0px 19.5px;
+}
+#Footersection p{
+    font-size: 25px;
+font-weight: 100;
+} */
+/* #Footersection {} */
+
+/* Footer section starts here */
+#FooterDiv1{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    background-color: #e89980;
+    color: whitesmoke;
+    height: 320px;
+}
+#FooterDiv1 h1{
+    font-size: 41px;
+    font-weight: 100;
+    padding-top: 60px;
+}
+#FooterDiv1 p{
+    font-size: 25px;
+}
+#FooterDiv1 form input{
+    margin-top: 30px;
+}
+#FooterDiv1 form input{
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px;
+    background-color: #eba893;
+    margin-right: 40px;
+}
+#FooterDiv1 form input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#FooterDiv1 form button{
+    background-color: white;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: #e89980;
+    font-size: 15px;
+}
+#FooterDiv2{
+  text-align: center;
+  color: #c6c6c6;
+}
+#SocialMedia i{
+    font-size: 36px;
+    margin: 0px 18px;
+    margin-top: 60px;
+}
+#FooterDiv2 div ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 23px 0px 60px 0px;
+}
+#FooterDiv2 div ul li:nth-child(1){
+    border-right: 1px solid #c6c6c6;
+}
+#FooterDiv2 div ul li:nth-child(2){
+    border-right: 1px solid #c6c6c6;
+}
+/* Footer section starts here */
+
